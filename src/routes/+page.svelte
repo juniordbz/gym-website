@@ -1,16 +1,22 @@
 <script lang="ts">
+  import icon from '../assets/icon.png'
 </script>
 
 <section
-  class="bg-musculacao relative flex min-h-[360px] items-center justify-start pl-10 after:absolute after:inset-0 after:bg-black/50"
+  class="bg-musculacao relative flex min-h-[360px] w-full items-center justify-start bg-cover bg-center pl-10 after:absolute after:inset-0 after:bg-black/50"
 >
   <div class="z-10">
-    <h1 class="text-4xl">Você está pronto para o desafio?</h1>
-    <p class="mt-4 text-lg">
+    <h1 class="text-4xl">
+      Você está pronto<br /> para o desafio?
+      <img class="inline h-9 w-9" src={icon} alt="" />
+    </h1>
+    <p class="mt-4 max-w-[450px] text-lg">
       A Academia Local está pronta para te ajudar a chegar mais longe e alcançar
       sua melhor performance.
     </p>
-    <button type="button" class="font-roboto mt-6 rounded-sm border px-2"
+    <button
+      type="button"
+      class="font-roboto mt-6 rounded-sm border px-2 delay-150 hover:bg-white hover:text-black hover:delay-100"
       >Modalidades</button
     >
   </div>
