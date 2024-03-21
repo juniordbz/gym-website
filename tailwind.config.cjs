@@ -8,7 +8,7 @@ const config = {
         roboto: ['Roboto Condensed', 'sans-serif'],
       },
       backgroundImage: {
-        musculacao: "url('./src/assets/musculacao.jpg')",
+        musculacao: "url('$lib/assets/musculacao.jpg')",
       },
     },
   },
