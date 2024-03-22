@@ -23,7 +23,7 @@
 
     {#if btn && href}
       <a
-        class="d mt-6 inline-block rounded-sm border px-2 py-1 font-roboto delay-150 hover:bg-white hover:text-black hover:delay-100"
+        class="mt-6 inline-block rounded-sm border px-2 py-1 font-roboto delay-150 hover:bg-white hover:text-black hover:delay-100"
         {href}
         >{btn}
       </a>

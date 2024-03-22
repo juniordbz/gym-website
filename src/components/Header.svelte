@@ -9,16 +9,18 @@
     >
     <nav>
       <ul class="flex items-center gap-6 font-roboto">
-        <li>
+        <li class="border-b-2 border-transparent hover:border-white">
           <a href="/">Home</a>
         </li>
-        <li>
+        <li class="border-b-2 border-transparent hover:border-white">
           <a href="/sobre">Sobre</a>
         </li>
-        <li>
+        <li class="border-b-2 border-transparent hover:border-white">
           <a href="/modaliades">Modalidades</a>
         </li>
-        <li class="border border-rose-800 px-3 py-1">
+        <li
+          class="rounded-md border border-rose-800 px-3 py-1 delay-150 hover:border-white hover:bg-white hover:text-black hover:delay-100"
+        >
           <a href="#contato">Contato</a>
         </li>
       </ul>
