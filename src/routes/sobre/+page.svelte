@@ -12,4 +12,17 @@
   img={exercicio}
 />
 
-<Info />
+<div class="mx-10 mt-14 grid grid-cols-2 gap-5">
+  <Info
+    title="Quanto custa a mensalidade?"
+    content="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum mollitia perspiciatis, cum, tempora debitis doloremque id, placeat reiciendis quas modi ipsa perferendis possimus voluptate velit ullam dolorum magnam! Tenetur, excepturi! "
+  />
+  <Info
+    title="Quantas modalidades estão disponíveis"
+    content="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum mollitia perspiciatis, cum, tempora debitis doloremque id, placeat reiciendis quas modi ipsa perferendis possimus voluptate velit ullam dolorum magnam! Tenetur, excepturi! "
+  />
+  <Info
+    title="Posso utilizar quantos dia da semana?"
+    content="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum mollitia perspiciatis, cum, tempora debitis doloremque id, placeat reiciendis quas modi ipsa perferendis possimus voluptate velit ullam dolorum magnam! Tenetur, excepturi! "
+  />
+</div>
