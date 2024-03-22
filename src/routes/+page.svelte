@@ -1,5 +1,5 @@
 <script lang="ts">
-  import Intro from '$lib/Intro.svelte'
+  import Intro from '../components/Intro.svelte'
   import icon from '$lib/assets/icon.png'
 </script>
 
