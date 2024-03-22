@@ -7,9 +7,6 @@ const config = {
       fontFamily: {
         roboto: ['Roboto Condensed', 'sans-serif'],
       },
-      backgroundImage: {
-        musculacao: "url('$lib/assets/musculacao.jpg')",
-      },
     },
   },
 
