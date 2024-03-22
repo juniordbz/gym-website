@@ -2,6 +2,7 @@
   import Intro from '../../components/Intro.svelte'
   import icon from '$lib/assets/icon-weight.png'
   import exercicio from '$lib/assets/exercicios-grupo.jpg'
+  import Info from '../../components/Info.svelte'
 </script>
 
 <Intro
@@ -10,3 +11,5 @@
   {icon}
   img={exercicio}
 />
+
+<Info />
