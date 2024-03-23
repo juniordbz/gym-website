@@ -16,7 +16,7 @@
           <a href="/sobre">Sobre</a>
         </li>
         <li class="border-b-2 border-transparent hover:border-white">
-          <a href="/modaliades">Modalidades</a>
+          <a href="/modalidades">Modalidades</a>
         </li>
         <li
           class="rounded-md border border-rose-800 px-3 py-1 delay-150 hover:border-white hover:bg-white hover:text-black hover:delay-100"
